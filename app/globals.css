@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  /* Links the Tailwind 'font-delta' utility class to your custom CSS variable */
+  --font-merri: var(--font-merri);
+  --font-poppins: var(--font-poppins);
+}
+
+:root,
+body {
+  --background: #386641;
+  --foreground: #171717;
+  background-color: var(--background);
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
+}
+
+/* src/styles.css or globals.css */
+
+@utility customShape {
+  /* Draws a folder container with a 40px tall tab on top with smooth 8px radius curves */
+  clip-path: path(
+    "M 0,10  A 8,8 0 0 1 10,0 L 395,0 L 445,40 L 745,40 L 795,0 L 1000,0 A 8,8 0 0 1 1010,10 L 1010,600 A 8,8 0 0 1 1000,610 L 10,610 A 8,8 0 0 1 0,600 Z"
+  );
+  background-color: white;
+  width: 1200px;
+  height: 1200px;
+  margin-left: 200px;
+}
