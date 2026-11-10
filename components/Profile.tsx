@@ -1,4 +1,3 @@
-
 import Button from "./Button"
 
 const Profile = () => {
@@ -24,4 +23,3 @@ const Profile = () => {
 }
 
 export default Profile
-

@@ -21,7 +21,7 @@ const poppins=localFont(
   variable: "--font-poppins",
 }  
 )
-   
+
 
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

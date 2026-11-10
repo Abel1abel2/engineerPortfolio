@@ -3,7 +3,7 @@
 import Image from "next/image";
 import { useState } from "react";
 
-const NavBar=()=>{
+const NavBar=()=> {
 
     const [dropDown,setDropDown]=useState(false)
 

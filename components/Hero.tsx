@@ -29,12 +29,11 @@ const Hero = () => {
         {/* Removed bg-white: solid backgrounds block view tracking of the Canvas underneath */}
         <div className='  md:-mt-30  w-full h-[400px] '>
            
-               <Scene />
-              
+            <Scene />
+               
         </div>
     </div>
   )
 }
 
 export default Hero
-
