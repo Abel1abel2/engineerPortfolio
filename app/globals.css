@@ -3,6 +3,17 @@
 @theme {
   --font-merri: var(--font-merri);
   --font-poppins: var(--font-poppins);
+  --font-archivo: var(--font-archivo);
+  --font-inter: var(--font-inter);
+
+  /* Navigation surface */
+  --color-nav-surface: #526754;
+  --color-nav-accent: #f9ae19;
+  --color-nav-accent-hover: #ffbc33;
+  --color-nav-ink: #1a1512;
+
+  --radius-nav: 16px;
+  --radius-nav-cta: 14px;
 }
 
 :root,
