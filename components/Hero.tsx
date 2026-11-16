@@ -17,9 +17,9 @@ const Hero = () => {
             <div className=' '>
                 {/* Fixed ml-50 utility to standard Tailwind ml-auto */}
                 <Image 
-                  src='/images/dag.jpg' 
+                  src='/images/dagImg.jpg' 
                   alt='Profile Image' 
-                  className='hidden  h-100 md:block rounded-[200px] ml-auto opacity-90 hover:opacity-100 transition-opacity duration-300 shadow-lg -ml-3' 
+                  className='hidden  h-100 md:block rounded-[200px] ml-auto opacity-90 hover:opacity-100 transition-opacity duration-300 shadow-lg -ml-3 mt-10' 
                   width={350} 
                   height={100}
                 />
