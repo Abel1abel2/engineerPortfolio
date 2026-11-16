@@ -19,10 +19,9 @@ const Hero = () => {
                 <Image 
                   src='/images/dagImg.jpg' 
                   alt='Profile Image' 
-                  className='hidden h-auto md:block rounded-[200px] ml-auto blur-sm hover:blur-none opacity-90 hover:opacity-100 transition-all duration-300 shadow-lg -ml-3 mt-10 object-cover' 
+                  className='hidden  h-100 md:block rounded-[200px] ml-auto opacity-90 hover:opacity-100 transition-opacity duration-300 shadow-lg -ml-3 mt-10' 
                   width={350} 
-                  height={350}
-                  priority
+                  height={100}
                 />
             </div>
         </div>
