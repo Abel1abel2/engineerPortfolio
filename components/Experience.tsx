@@ -1,33 +1,27 @@
 const experiences = [
   {
-    title: "Bahir Dar University",
-    date: "2017 - 2022",
+    title: "Cabin Technician — Ethiopian Airlines",
+    date: "Jan 2025 - Present",
     description:
-      "I hold a B.Sc. degree in Mechanical Engineering (Thermal Stream) from Bahir Dar University, completed in 2022 with a GPA of 3.52.",
+      "Serving as a Cabin Technician after completing an intensive 8-month specialized Cabin Technician training program prior to recruitment.",
   },
   {
-    title: "Unity University (2017-2026)",
-    date: "2017 - 2026",
+    title: "Junior Underwriter & Claim Officer — Nile Insurance",
+    date: "Sep 2023 - Mar 2024",
     description:
-      "I am also pursuing my final year in Management at Unity university.",
+      "Handled risk underwriting, assessment, technical documentation, and claims processing with accuracy and attention to detail.",
   },
   {
-    title: "Internship Experience",
-    date: "2017 - 2022",
+    title: "B.Sc. in Mechanical Engineering — Bahir Dar University",
+    date: "Sep 2017 - Aug 2022",
     description:
-      "During my internship at Adama Steel Factory, I gained practical exposure to industrial systems and maintenance operations",
+      "Graduated from Bahir Dar Institute of Technology with a focus on Thermal Systems, mechanical design, and simulation.",
   },
   {
-    title: "Junior underwriter",
-    date: "2017 - 2022",
+    title: "B.A. in Management — Unity University",
+    date: "Oct 2022 - Present",
     description:
-      "Professionally, I served as a Junior Underwriter and Claims Officer at Nile Insurance.",
-  },
-   {
-    title: "Cabin Technician",
-    date: "2017 - 2022",
-    description:
-      "I joined Ethiopian Airlines as an Assistant Cabin Technician in January 2023, where I continue to serve Working within the maintenance team",
+      "Pursuing degree in Management to complement engineering expertise with leadership, operational, and organizational skills (Expected Graduation: 2026).",
   },
 ];
 

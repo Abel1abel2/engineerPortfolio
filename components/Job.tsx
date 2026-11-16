@@ -5,20 +5,20 @@ const jobs = [
   {
     icon: Wrench,
     bg: 'bg-[#286F6B]',
-    title: 'Aircraft Mechanic - IFE Maintenance',
-    years: '3 years',
+    title: 'Cabin Maintenance & Systems Support',
+    years: 'Ethiopian Airlines',
   },
   {
     icon: Settings,
     bg: 'bg-[#E9BF4C]',
-    title: 'Pre-Flight Inspection',
-    years: '3 years',
+    title: 'Cabin Technician Training Program',
+    years: '8 Months Intensive Training',
   },
   {
     icon: Ruler,
     bg: 'bg-[#EE653E]',
-    title: 'Cabin Interior Maintenance',
-    years: '3 years',
+    title: 'Cabin Interior Inspection & Safety',
+    years: 'Commercial Fleet',
   },
 ]
 

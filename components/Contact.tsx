@@ -15,8 +15,11 @@ const Contact = () => {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
-    alert(`Thanks ${form.name}! Your message has been received.`)
-    setForm({ name: "", email: "", message: "" })
+    const subject = encodeURIComponent(`Portfolio Inquiry from ${form.name}`)
+    const body = encodeURIComponent(
+      `Name: ${form.name}\nEmail: ${form.email}\n\nMessage:\n${form.message}`
+    )
+    window.location.href = `mailto:dagimgirma1234@gmail.com?subject=${subject}&body=${body}`
   }
 
   return (
@@ -38,11 +41,15 @@ const Contact = () => {
             </div>
             <div className="flex items-center gap-3 text-white">
               <Mail className="h-5 w-5 text-[#cb7949]" />
-              <span className="text-sm sm:text-base">dagimgirma@example.com</span>
+              <a href="mailto:dagimgirma1234@gmail.com" className="text-sm sm:text-base hover:text-[#cb7949] transition-colors">
+                dagimgirma1234@gmail.com
+              </a>
             </div>
             <div className="flex items-center gap-3 text-white">
               <Phone className="h-5 w-5 text-[#cb7949]" />
-              <span className="text-sm sm:text-base">+251 9XX XXX XXX</span>
+              <a href="tel:+251939744076" className="text-sm sm:text-base hover:text-[#cb7949] transition-colors">
+                +251 939 744 076
+              </a>
             </div>
           </div>
         </div>
@@ -65,7 +72,7 @@ const Contact = () => {
                 required
                 value={form.name}
                 onChange={handleChange}
-                placeholder="Dagim Girma"
+                placeholder="Enter Your Name"
                 className="w-full rounded-lg bg-white/10 border border-white/20 px-4 py-3 text-white placeholder-white/50 focus:outline-none focus:ring-2 focus:ring-[#cb7949] focus:border-transparent transition"
               />
             </div>

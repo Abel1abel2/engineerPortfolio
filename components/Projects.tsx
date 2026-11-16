@@ -1,4 +1,4 @@
-import { Cog, FileText, ChevronRight } from "lucide-react"
+import { Cog, FileText } from "lucide-react"
 
 const projects = [
   {
@@ -59,13 +59,6 @@ const Projects = () => {
                         {tag}
                       </span>
                     ))}
-                  </div>
-
-                  <div className="flex items-center gap-4 pt-2">
-                    <button className="inline-flex items-center gap-2 text-sm font-medium text-[#c97c46] hover:gap-3 transition-all duration-300">
-                      View Details
-                      <ChevronRight className="h-4 w-4" />
-                    </button>
                   </div>
                 </div>
               </div>

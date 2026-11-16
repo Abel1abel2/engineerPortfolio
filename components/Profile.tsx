@@ -11,9 +11,7 @@ const Profile = () => {
       </h2>
       <div className='mt-10'>
       <p className='font-poppins text-[14px] sm:text-lg text-left w-70 sm:w-100 text-white font-extralight'>
-      i am mechanic engineer that has more
-      than 3 year working in ethiopian airline 
-            as cabin technician.
+        Motivated and detail-oriented mechanical engineer with professional experience as a Cabin Technician at Ethiopian Airlines.
       </p>
         <Button/>
       </div>

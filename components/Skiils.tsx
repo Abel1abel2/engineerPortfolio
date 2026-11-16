@@ -1,4 +1,4 @@
-import { Wrench, Plane, FileText, DraftingCompass, Palette, Briefcase, LucideIcon } from "lucide-react"
+import { Wrench, Plane, FileText, DraftingCompass, Users, Briefcase, LucideIcon } from "lucide-react"
 
 
 interface Skill {
@@ -8,12 +8,12 @@ interface Skill {
 
 const Skiils = () => {
   const skills: Skill[] = [
-    { name: "Mechanical system & Maintenance", icon: Wrench },
+    { name: "Mechanical System & Maintenance", icon: Wrench },
     { name: "Aircraft Maintenance Support", icon: Plane },
     { name: "Technical Documentation", icon: FileText },
     { name: "Engineering Design & Simulation", icon: DraftingCompass },
-    { name: "Graphic Design", icon: Palette },
-    { name: "Business Management", icon: Briefcase },
+    { name: "Teamwork & Communication", icon: Users },
+    { name: "Management & Operations", icon: Briefcase },
   ];
 
   return (
